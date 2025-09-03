@@ -30,9 +30,18 @@
 
 ## Commit Convention
 
-구조 : `type: body footer`
+구조 : `type(domain): body footer`
 
-예시 `feat: 카카오 로그인 api 추가 #1`
+예시 `feat(auth): 카카오 로그인 api 추가 #1`
+
+### Domain
+```text
+auth
+admin
+performance
+seat
+booking
+```
 
 ### Type 
 
