@@ -101,11 +101,10 @@ ex) 메인 브랜치에 포함되기 위한 코드는 모두 정상적으로 동
 <img width="521" height="402" alt="image" src="https://github.com/user-attachments/assets/bd52bc2a-bf4c-4248-89f6-76ab9c26fda5" />
 
 
-
 # 4. 팀원
 |이름|| 담당 |
 |-----------------|-----------------|-----------------|
 | 김현송    |  <img src="https://github.com/user-attachments/assets/67d80433-e382-4833-9671-6bda6a116bc5" alt="김현송" width="100"> | <ul><li>aa</li><li>bb</li><li>cc</li></ul>     |
 | 국다혜   |  <img src="https://github.com/user-attachments/assets/56d20aad-2132-42b4-aa69-afa1875c1641" alt="국다혜" width="100">| <ul><li>aa</li><li>bb</li><li>cc</li></ul> |
 | 박진영   |  <img src="https://github.com/user-attachments/assets/de9ff1ec-f113-43ad-921b-c565409b3598" alt="박진영" width="100">    |<ul><li>aa</li><li>bb</li><li>cc</li></ul>  |
-| 윤효정    |  <img src="https://github.com/user-attachments/assets/4ccdd028-1c2f-4608-a45d-9d3bb698ade5" alt="윤효정" width="100">    | <ul><li>aa</li><li>bb</li><li>cc</li></ul>    |
+| 윤효정    |  <img src="https://avatars.githubusercontent.com/u/77730511?v=4" alt="윤효정" width="100">    | <ul><li>aa</li><li>bb</li><li>cc</li></ul>    |
