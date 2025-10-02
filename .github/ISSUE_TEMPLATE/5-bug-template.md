@@ -1,7 +1,7 @@
 ---
 name: BUG Template
 about: BUG 이슈 템플릿
-title: 'BUG: '
+title: '[JIRA-ID]BUG: '
 labels: ''
 assignees: ''
 ---
@@ -10,13 +10,23 @@ assignees: ''
 
 BUG
 
-### 버그 요약
+### 버그 현재 상황
 
-ex) 정상 플로우가 아님
+ <!--A concise description of what you're experiencing. -->
+
+### 기대 결과
+
+<!-- A concise description of what you expected to happen. -->
 
 ### 버그 재현 방법
 
-ex) ~한 상황에서 ~한 결과가 나옴
+<!--
+Example: steps to reproduce the behavior:
+1. In this environment...
+1. With this config...
+1. Run '...'
+1. See error...
+-->
 
 ### 버그 원인
 

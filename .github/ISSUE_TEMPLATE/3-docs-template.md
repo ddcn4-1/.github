@@ -1,7 +1,7 @@
 ---
 name: DOCS Template
 about: 문서 추가 이슈 템플릿
-title: 'DOCS: '
+title: '[JIRA-ID]DOCS: '
 labels: ''
 assignees: ''
 ---
