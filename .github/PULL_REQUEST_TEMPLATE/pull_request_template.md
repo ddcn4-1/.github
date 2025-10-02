@@ -1,21 +1,6 @@
-### PR 타입(아래 중 하나 이상을 고른 뒤 나머지는 삭제)
+'preview' 탭을 누르고 PR 템플릿을 선택하시면 됩니다.
 
-PR 제목 prefix로 아래 중 하나를 골라 작성 부탁드립니다.
-
--   FEATURE : 새로운 기능 추가
--   BUG/FIX : 버그 수정
--   DOCS : 문서 수정
--   CHORE : 코드 포맷팅, 세미콜론 누락, 코드 변경이 없는 경우
--   REFACTOR : 코드 리펙토링
-
-### 반영 브랜치
-
-ex) feat/login -> dev
-
-### 변경 사항
-
-#이슈번호 or JIRA ID
-
-### 테스트 결과
-
-ex) 메인 브랜치에 포함되기 위한 코드는 모두 정상적으로 동작해야 합니다. 결과물에 대한 스크린샷, GIF 등
+-   [FEATRUE](?quick_pull=1&template=feature_template.md&title=[JIRA-ID]+FEATURE)
+-   [CHORE](?quick_pull=1&template=feature_template.md&title=[JIRA-ID]+CHORE)
+-   [REFACTOR](?quick_pull=1&template=feature_template.md&title=[JIRA-ID]+REFACTOR)
+-   [BUG/FIX](?quick_pull=1&template=feature_template.md&title=[JIRA-ID]+BUG+FIX)
