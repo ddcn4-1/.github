@@ -6,20 +6,36 @@
 |단계|중점 구현|기간|
 |:-:	|:-:	|:-:	|
 |1차 (최적화 중심)|아키텍처, 리소스, 배포 구조 최적화 설계 및 기본 MVP 구현 |2025.08.28~2025.09.23|
-|2차 (트랜잭션 무결성 중심)|데이터 일관성과 안정성 강화|2025.09.23~|
-|3차 (자동화 및 안정화)|모니터링 등으로 오류, 장애 대응 프로세스 안정화 및 운영 자동화 ||
+|2차 (트랜잭션 무결성 중심)|데이터 일관성과 안정성 강화|2025.09.24~2025.10.30|
+|3차 (자동화 및 안정화)|모니터링 등으로 오류, 장애 대응 프로세스 안정화 및 운영 자동화 |2025.10.31~|
 
 ## 1차 클라우드 퍼포먼스 최적화
 ### 프로젝트 소개
+아키텍처, 리소스, 배포 구조 최적화 설계 및 기본 MVP 구현 
 
 ### 상세 레포
+[frontend version 1](https://github.com/ddcn4-1/demo-frontend)
+
+[backend version 1](https://github.com/ddcn4-1/app)
+
+
+
 
 ## 2차 
 ### 프로젝트 소개
+- 데이터 일관성과 안정성 강화
+- 쿠버네티스 도입을 위한 모놀리식 -> MSA 구조분리
+- 기존 코드 리팩토링
+
 ### 상세 레포
+[frontend version 2](https://github.com/ddcn4-1/frontend-v2)
+
+[backend version 2](https://github.com/ddcn4-1/backend-v2)
 
 ## 3차
 ### 프로젝트 소개
+모니터링 등으로 오류, 장애 대응 프로세스 안정화 및 운영 자동화 
+
 ### 상세 레포
 
 # 2. 개발 환경
@@ -30,17 +46,17 @@
 
 ## Commit Convention
 
-구조 : `type(domain): body footer`
+구조 : `[JIRA-ID]type(domain): body`
 
-예시 `feat(auth): 카카오 로그인 api 추가 #1`
+예시 `[MSA-46]feat(auth): 카카오 로그인 api 추가`
 
 ### Domain
 ```text
 auth
 admin
-performance
-seat
-booking
+common
+core
+queue
 ```
 
 ### Type 
@@ -62,23 +78,22 @@ refactor :	코드 리팩토링
 - 한글 작성을 권장, 한 줄에 간결하게 작성
 
 ex) `카카오 로그인 api 추가`
-### Footer 
-- 이슈 번호 태그
+
 
 ## PR Convention
 ```
 ### PR 타입(하나 이상의 PR 타입을 선택)
--[] Feat : 새로운 기능 추가
--[] Fix : 버그 수정
--[] Docs : 문서 수정
--[] Chore : 코드 포맷팅, 세미콜론 누락, 코드 변경이 없는 경우
--[] Refactor : 코드 리펙토링
+-[] FEATURE : 새로운 기능 추가
+-[] BUG/FIX : 버그 수정
+-[] DOCS : 문서 수정
+-[] CHORE : 코드 포맷팅, 세미콜론 누락, 코드 변경이 없는 경우
+-[] REFACTOR : 코드 리펙토링
 
 ### 반영 브랜치
 ex) feat/login -> dev
 
 ### 변경 사항
-ex) 로그인 시, 구글 소셜 로그인 기능을 추가했습니다.
+{resolve} jira ID or Github Issue Number
 
 ### 테스트 결과
 ex) 메인 브랜치에 포함되기 위한 코드는 모두 정상적으로 동작해야 합니다. 결과물에 대한 스크린샷, GIF 등
